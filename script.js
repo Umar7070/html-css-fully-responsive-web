@@ -11,3 +11,8 @@ document.querySelectorAll(".header__navlink").forEach((n)=>n.addEventListener("c
   hamberguer.classList.remove("active");
   navmenu.classList.remove("active");
 }))
+
+
+// /slider images //
+
+
