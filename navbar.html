@@ -49,6 +49,23 @@
         </nav>
         <!-- slider -->
     </header>
+    <!-- header section //////////////////////// -->
+    <div class="slider">
+        <div class="slides">
+            <div class="slide" style="background-image: url('/img/blog-project2.jpg');"></div>
+            <div class="slide" style="background-image: url('/img/blog-project1.jpg');"></div>
+            <div class="slide" style="background-image: url('/img/blog-project2.jpg');"></div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        <div class="text-content">
+            <h1>Solution For All Business</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="btn">About Us</button>
+            <button class="btn outline">Portfolio</button>
+        </div>
+    </div>
+
     <!-- about section///////////////////////////
       -->
 
@@ -66,7 +83,7 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At reprehenderit quam vitae cumque maiores
                 asperiores cupiditate animi perspiciatis accusamus iste molestiae a soluta laborum beatae inventore,
                 consectetur, non eos doloremque.</p>
-            <div class="btn">
+            <div class="about_btn">
                 <button>Portfolio</button>
             </div>
         </div>
@@ -108,6 +125,101 @@
 
         </div>
     </div>
+
+    <!-- our portfolio ?///////////////////// -->
+    <section id="portfolio">
+        <div class="portolio-title">
+            <span>Our</span>
+            <span>Portfolio</span>
+
+        </div>
+        <ul>
+            <li class="listitemBox active" data-filter="all">All</li>
+            <li class="listitemBox" data-filter="Photoshop">Photoshop</li>
+            <li class="listitemBox" data-filter="Web Design">Web Design</li>
+            <li class="listitemBox" data-filter="Branding">Branding</li>
+        </ul>
+
+        <div class="product">
+
+            <div class="itemBox" data-item="Photoshop">
+                <img src="/img/port1.jpg" alt="">
+            </div>
+
+            <div class="itemBox" data-item="Web Design">
+                <img src="/img/port2.jpg" alt="">
+
+            </div>
+
+            <div class="itemBox" data-item="Photoshop">
+                <img src="/img/port3.jpg" alt="">
+
+            </div>
+
+            <div class="itemBox" data-item="Branding">
+                <img src="/img/port4.jpg" alt="">
+
+            </div>
+
+            <div class="itemBox" data-item="Photoshop">
+                <img src="/img/port5.jpg" alt="">
+
+            </div>
+
+            <div class="itemBox" data-item="Branding">
+                <img src="/img/port6.jpg" alt="">
+
+            </div>
+
+            <div class="itemBox" data-item="Web Design">
+                <img src="/img/text8.jpg" alt="">
+
+            </div>
+            <div class="itemBox" data-item="Web Design">
+                <img src="/img/text7.jpg" alt="">
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <div class="counter">
+        <div class="counter_icons">
+            <i class="fa-solid fa-file-zipper"></i>
+            <div class="number">70+</div>
+            <div class="counter_title">
+                <p>projects</p>
+            </div>
+
+        </div>
+        <div class="counter_icons">
+            <i class="fa-solid fa-user"></i>
+            <div class="number">150+</div>
+            <div class="counter_title">
+                <p>happy client</p>
+            </div>
+
+        </div>
+        <div class="counter_icons">
+            <i class="fa-solid fa-mug-saucer"></i>
+            <div class="number">45+</div>
+            <div class="counter_title">
+                <p>cup of coffee</p>
+            </div>
+
+        </div>
+        <div class="counter_icons">
+            <i class="fa-solid fa-trophy"></i>
+            <div class="number">70+</div>
+            <div class="counter_title">
+                <p>projects</p>
+            </div>
+
+        </div>
+    </div>
+
 
 
     <!-- /* blog section///////////////////// */ -->
@@ -223,23 +335,68 @@
         <p>Team</p>
     </div>
     <div class="team_container">
-        <div class="team_img">
-            <img src="/img/team1.jpg" alt="">
-            <div class="social_list">
-                <i class="fa-brands fa-facebook-f facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-google-plus-g"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
+        <div class="team_card">
+            <div class="team_img">
+                <img src="/img/team1.jpg" alt="Team Member">
+                <div class="social_list">
+                    <i class="fa-brands fa-facebook-f social_listicon"></i>
+                    <i class="fa-brands fa-twitter social_listicon"></i>
+                    <i class="fa-brands fa-google-plus-g social_listicon"></i>
+                    <i class="fa-brands fa-linkedin-in social_listicon"></i>
+                </div>
+            </div>
+            <div class="member_content">
+                <h4>Member Name</h4>
+                <p>Position</p>
             </div>
         </div>
-        <div class="team_img">
-            <img src="/img/team2.jpg" alt="">
+
+        <div class="team_card">
+            <div class="team_img">
+                <img src="/img/team2.jpg" alt="Team Member">
+                <div class="social_list">
+                    <i class="fa-brands fa-facebook-f social_listicon"></i>
+                    <i class="fa-brands fa-twitter social_listicon"></i>
+                    <i class="fa-brands fa-google-plus-g social_listicon"></i>
+                    <i class="fa-brands fa-linkedin-in social_listicon"></i>
+                </div>
+            </div>
+            <div class="member_content">
+                <h4>Member Name</h4>
+                <p>Position</p>
+            </div>
         </div>
-        <div class="team_img">
-            <img src="/img/team3.jpg" alt="">
+
+        <div class="team_card">
+            <div class="team_img">
+                <img src="/img/team3.jpg" alt="Team Member">
+                <div class="social_list">
+                    <i class="fa-brands fa-facebook-f social_listicon"></i>
+                    <i class="fa-brands fa-twitter social_listicon"></i>
+                    <i class="fa-brands fa-google-plus-g social_listicon"></i>
+                    <i class="fa-brands fa-linkedin-in social_listicon"></i>
+                </div>
+            </div>
+            <div class="member_content">
+                <h4>Member Name</h4>
+                <p>Position</p>
+            </div>
         </div>
-        <div class="team_img">
-            <img src="/img/team4.jpg" alt="">
+
+        <div class="team_card">
+            <div class="team_img">
+                <img src="/img/team4.jpg" alt="Team Member">
+                <div class="social_list">
+                    <i class="fa-brands fa-facebook-f social_listicon"></i>
+                    <i class="fa-brands fa-twitter social_listicon"></i>
+                    <i class="fa-brands fa-google-plus-g social_listicon"></i>
+                    <i class="fa-brands fa-linkedin-in social_listicon"></i>
+                </div>
+            </div>
+            <div class="member_content">
+                <h4>Member Name</h4>
+                <p>Position</p>
+            </div>
         </div>
     </div>
 
@@ -263,7 +420,64 @@
             <img src="/img/05.png" alt="">
         </div>
     </div>
-     
+
+    <!-- CONTACT US SECTION /// -->
+
+
+    <div class="contact_container">
+        <div class="contact">
+            <h2>Contact</h2>
+            <p>Us</p>
+        </div>
+
+        <div class="contact_content">
+            <div class="contact_info">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores id enim libero iure voluptate facere
+                    magnam necessitatibus explicabo animi totam!</p>
+                <div class="info_item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+91-8176837301</span>
+                </div>
+                <div class="info_item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>umar@gmail.com</span>
+                </div>
+                <div class="info_item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>NOIDA, UTTER PRADESH</span>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d70155.27928272644!2d77.304119!3d28.5355161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5510cf678af%3A0x3f88f7fd5e6bce59!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1712345678901!5m2!1sen!2sin"
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+
+            <div class="contact_form">
+                <form action="">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Your Email">
+                    <input type="tel" placeholder="Phone">
+                    <textarea placeholder="Your Message"></textarea>
+                    <button type="submit">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section ////// -->
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        </div>
+        <p>Copyright © 2018. All Rights Reserved.</p>
+        <button class="scroll-top" onclick="scrollToTop()">&#9650;</button>
+    </footer>
+
+
+
 
 
 </body>
