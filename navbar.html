@@ -22,23 +22,23 @@
                     <a href="#" class="header__navlink">Home</a>
                 </li>
                 <li class="header__navitem">
-                    <a href="#" class="header__navlink">About</a>
+                    <a href="#About" class="header__navlink">About</a>
                 </li>
 
                 <li class="header__navitem">
-                    <a href="#" class="header__navlink">Serveces</a>
+                    <a href="#Serveces" class="header__navlink">Serveces</a>
                 </li>
                 <li class="header__navitem">
-                    <a href="#" class="header__navlink">Portfolio</a>
+                    <a href="#Portfolio" class="header__navlink">Portfolio</a>
                 </li>
                 <li class="header__navitem">
-                    <a href="#" class="header__navlink">Blog</a>
+                    <a href="#Blog" class="header__navlink">Blog</a>
                 </li>
                 <li class="header__navitem">
-                    <a href="#" class="header__navlink">Team</a>
+                    <a href="#Team" class="header__navlink">Team</a>
                 </li>
                 <li class="header__navitem">
-                    <a href="#" class="header__navlink">Contect</a>
+                    <a href="#Connect" class="header__navlink">Contect</a>
                 </li>
             </ul>
             <div class="header__hamburger">
@@ -52,9 +52,11 @@
     <!-- header section //////////////////////// -->
     <div class="slider">
         <div class="slides">
-            <div class="slide" style="background-image: url('/img/blog-project2.jpg');"></div>
-            <div class="slide" style="background-image: url('/img/blog-project1.jpg');"></div>
-            <div class="slide" style="background-image: url('/img/blog-project2.jpg');"></div>
+            <div class="slide" style="background-image: url('/img/one.webp');"></div>
+            <!-- <div class="slide" style="background-image: url('/img/free.jpeg');"></div> -->
+            <div class="slide" style="background-image: url('/img/member.jpg');"></div>
+
+            <div class="slide" style="background-image: url('/img/four.jpeg');"></div>
         </div>
         <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
         <button class="next" onclick="moveSlide(1)">&#10095;</button>
@@ -69,7 +71,7 @@
     <!-- about section///////////////////////////
       -->
 
-    <div class="about_sec">
+    <div class="about_sec" id="About">
         <div class="title">
             <div class="heading">
                 <h2>Provide Best
@@ -94,7 +96,7 @@
     </div>
     <!-- services////////////////////////////////// -->
 
-    <div class="services_sec">
+    <div class="services_sec" id="Serveces">
         <div class="serv_heading">
             <h3>What We </h3>
             <strong>Do</strong>
@@ -142,85 +144,68 @@
 
         <div class="product">
 
-            <div class="itemBox" data-item="Photoshop">
-                <img src="/img/port1.jpg" alt="">
-            </div>
+            <div class="itemBox" data-item="Photoshop"><img src="img/port1.jpg" alt=""></div>
 
-            <div class="itemBox" data-item="Web Design">
-                <img src="/img/port2.jpg" alt="">
+            <div class="itemBox" data-item="Web Design"><img src="img/port2.jpg" alt=""></div>
 
-            </div>
+            <div class="itemBox" data-item="Photoshop"><img src="img/port3.jpg" alt=""></div>
 
-            <div class="itemBox" data-item="Photoshop">
-                <img src="/img/port3.jpg" alt="">
+            <div class="itemBox" data-item="Branding"><img src="img/port4.jpg" alt=""></div>
 
-            </div>
+            <div class="itemBox" data-item="Photoshop"><img src="img/port5.jpg" alt=""></div>
 
-            <div class="itemBox" data-item="Branding">
-                <img src="/img/port4.jpg" alt="">
+            <div class="itemBox" data-item="Branding"><img src="img/port6.jpg" alt=""></div>
 
-            </div>
+            <div class="itemBox" data-item="Web Design"><img src="img/text7.jpg" alt=""></div>
 
-            <div class="itemBox" data-item="Photoshop">
-                <img src="/img/port5.jpg" alt="">
-
-            </div>
-
-            <div class="itemBox" data-item="Branding">
-                <img src="/img/port6.jpg" alt="">
-
-            </div>
-
-            <div class="itemBox" data-item="Web Design">
-                <img src="/img/text8.jpg" alt="">
-
-            </div>
-            <div class="itemBox" data-item="Web Design">
-                <img src="/img/text7.jpg" alt="">
-
-            </div>
-
-
+            <div class="itemBox" data-item="Branding"><img src="img/text8.jpg" alt=""></div>
 
         </div>
     </section>
 
-    <div class="counter">
-        <div class="counter_icons">
-            <i class="fa-solid fa-file-zipper"></i>
-            <div class="number">70+</div>
-            <div class="counter_title">
-                <p>projects</p>
-            </div>
-
+    <section class="counter-section" id="counter-section">
+        <div class="counter-box dark-blue">
+            <i class="fas fa-file-alt"></i>
+            <h2>70+</h2>
+            <p>Projects</p>
         </div>
-        <div class="counter_icons">
-            <i class="fa-solid fa-user"></i>
-            <div class="number">150+</div>
-            <div class="counter_title">
-                <p>happy client</p>
-            </div>
-
+        <div class="counter-box red">
+            <i class="fas fa-user"></i>
+            <h2>150+</h2>
+            <p>Happy Clients</p>
         </div>
-        <div class="counter_icons">
-            <i class="fa-solid fa-mug-saucer"></i>
-            <div class="number">45+</div>
-            <div class="counter_title">
-                <p>cup of coffee</p>
-            </div>
-
+        <div class="counter-box orange">
+            <i class="fas fa-coffee"></i>
+            <h2>45+</h2>
+            <p>Cup Of Coffee</p>
         </div>
-        <div class="counter_icons">
-            <i class="fa-solid fa-trophy"></i>
-            <div class="number">70+</div>
-            <div class="counter_title">
-                <p>projects</p>
-            </div>
-
+        <div class="counter-box yellow">
+            <i class="fas fa-trophy"></i>
+            <h2>90+</h2>
+            <p>Awards Won</p>
         </div>
+    </section>
+
+    <!-- Testimonial Section -->
+
+
+    <div class="background_img">
+        <section class="testimonial-section">
+            <div class="testimonial-overlay">
+                <div class="testimonial_content">
+                    <img src="/img/blog-project1.jpg" alt="Client Image" class="client-img">
+                    <h3 class="client-name">Client Name</h3>
+                    <p class="testimonial-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit sed diam nonummy nibh euismod tincidunt
+                        ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim uis nostrud exerci tation
+                        ullamcorper suscipit lobortis nisl ut aliquip.
+                    </p>
+                    <div class="quote-icon">❝</div>
+                </div>
+            </div>
+        </section>
+
     </div>
-
-
 
     <!-- /* blog section///////////////////// */ -->
 
@@ -280,7 +265,7 @@
         </div>
     </div> -->
 
-    <div class="blog_container">
+    <div class="blog_container" id="Blog">
         <div class="blog_wrapper">
             <div class="blog_img">
                 <img src="/img/blog-project4.jpg" alt="Blog Image">
@@ -334,7 +319,7 @@
         <h1>Creative</h1>
         <p>Team</p>
     </div>
-    <div class="team_container">
+    <div class="team_container" id="Team">
         <div class="team_card">
             <div class="team_img">
                 <img src="/img/team1.jpg" alt="Team Member">
@@ -424,7 +409,7 @@
     <!-- CONTACT US SECTION /// -->
 
 
-    <div class="contact_container">
+    <div class="contact_container" id="Connect">
         <div class="contact">
             <h2>Contact</h2>
             <p>Us</p>
