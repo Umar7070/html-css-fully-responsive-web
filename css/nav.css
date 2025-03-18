@@ -141,7 +141,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+  background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
 
@@ -500,7 +500,6 @@
 
 /* <!-- our portfolio ?///////////////////// --> */
 #portfolio {
-  /* padding: 20px; */
   width: 80%;
   display: flex;
   justify-content: center;
@@ -531,7 +530,6 @@
 
 #portfolio ul li {
   list-style: none;
-  /* background: #eee; */
   padding: 12px 20px;
   margin: 5px;
   letter-spacing: 1px;
@@ -882,7 +880,6 @@
 }
 
 .btn_redmore button {
-  /* background: #1e90ff; */
   color: #1e90ff;
   border: none;
   background: none;
@@ -1061,7 +1058,7 @@
   }
 
   .lorem_sec {
-    max-width: 90%; /* Increase width on mobile */
+    max-width: 90%;
   }
 }
 
@@ -1173,7 +1170,7 @@ iframe {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 20px; 
+    gap: 20px;
   }
 
   .contact_info,
@@ -1181,7 +1178,6 @@ iframe {
     width: 100%;
   }
 }
-
 
 /* /footer sectio  */
 
